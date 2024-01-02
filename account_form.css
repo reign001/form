@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(125, 230, 125);
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.account{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    background-color: rgb(154, 218, 154);
+    width: 400px;
+
+}
+
+input{
+    outline: none;
+}
+div{
+    padding-top: 12px;
+    
+}
+.remember a{
+    text-decoration: none;
+}
+#login_button{
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 6px 12px;
+    background-color: rgba(16, 17, 16, 0.082);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#login_button:hover{
+    background-color: rgb(54, 148, 54);
+    border-radius: 6px;
+}
+
+.user_name_div{
+    text-align: left;
+}
+.user_name_div input{
+    margin-left: 0;
+}
+.password_div{
+    text-align: left;
+}
+.password_div input{
+    width: 253px;
+    /* margin-left: 148px; */
+}
+
+#create_button{
+    padding: 6px 12px;
+    border: none;
+    background-color: rgba(16, 17, 16, 0.082);
+    cursor: pointer;
+}
+
+#create_button:hover{
+    background-color: rgb(54, 148, 54);
+    border-radius: 6px;
+}
